@@ -5,11 +5,13 @@ Read a sequence of valid JSON from STDIN
 
 **`readJSONSequence`** internally reads in from STDIN and produces an array of JSON that the callback should accept and deal with.
 
+**Note:** The numbers are converted into "lossless numbers" so install the [`lossless-json`](https://www.npmjs.com/package/lossless-json) library and use their `stringify` method to convert the JSON array to a string. See Example below:
+
 
 ## Example
 
 ```
-npm i  lossless-json read-json-sequence
+npm i lossless-json read-json-sequence
 ```
 
 
