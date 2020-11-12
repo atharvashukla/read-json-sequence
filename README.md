@@ -41,11 +41,11 @@ Let's say you give it:
 1"hello"{
 	
 	"boy":"good"
-}[]2
+}[]2.00000000000000000000000000
 ```
 
 The result is an array of each JSON here but you can do whatever you want in the callback to readJSONSequence.
 
 ```
-[1,"hello",{"boy":"good"},[],2]
+[1,"hello",{"boy":"good"},[],2.00000000000000000000000000]
 ```
