@@ -1,56 +1,20 @@
 {
-  "_from": "read-json-sequence",
-  "_id": "read-json-sequence@0.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-6nsbwvhEKlppJf4hiYfyNQrw7jXoZ71a2pxdvkQ+9P4HP/y32rKB8BVZiIN8klYkGtAI3aRHsX4G8MDPQg4ykQ==",
-  "_location": "/read-json-sequence",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "read-json-sequence",
-    "name": "read-json-sequence",
-    "escapedName": "read-json-sequence",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/read-json-sequence/-/read-json-sequence-0.0.0.tgz",
-  "_shasum": "23f43df1d0419db124726bd65d33f68b358077f9",
-  "_spec": "read-json-sequence",
-  "_where": "/Users/atharvashukla/Desktop/try-package",
-  "author": {
-    "name": "Atharva Shukla"
-  },
-  "bin": {
-    "read-json-sequence": "index.js"
-  },
-  "bugs": {
-    "url": "https://github.com/atharvashukla/read-json-sequence/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "lossless-json": "^1.0.4"
-  },
-  "deprecated": false,
-  "description": "Read a sequence of valid JSON values from STDIN.",
-  "homepage": "https://github.com/atharvashukla/read-json-sequence#readme",
-  "keywords": [
-    "json"
-  ],
-  "license": "ISC",
-  "main": "index.js",
   "name": "read-json-sequence",
+  "version": "0.0.2",
+  "description": "Read a sequence of valid JSON from STDIN.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atharvashukla/read-json-sequence.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [],
+  "author": "Atharva Shukla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharvashukla/read-json-sequence/issues"
   },
-  "version": "0.0.0"
+  "homepage": "https://github.com/atharvashukla/read-json-sequence#readme"
 }
